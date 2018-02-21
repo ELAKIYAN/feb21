@@ -17,7 +17,7 @@ int main(void) {
 	{
 		for(i=2;i<=n;i++)
 		{
-			if(n%i==0 & n!=i)
+			if(n%i==0 && n!=i)
 			{
 				printf("it is not prime number");
 				break;
